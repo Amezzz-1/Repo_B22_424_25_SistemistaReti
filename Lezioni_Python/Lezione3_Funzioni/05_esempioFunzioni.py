@@ -5,3 +5,4 @@
 # ATT: lavora con un unico magazzino (String)
 
 magazzino = "Immaginazione e Lavoro"
+
