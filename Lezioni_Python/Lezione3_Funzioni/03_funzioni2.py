@@ -13,7 +13,7 @@ def descrivi_studente(nome="Paolo", corso="Sistemista", citta="Torino"):
     print(f"Ciao, mi chiamo {nome}, abito a {citta} e frequento il corso di {corso}")
 
 descrivi_studente()
-descrivi_studente("Anna", "WEB", "Milano");
+descrivi_studente("Anna", "WEB", "Milano")
 
 
 #Funzioni con parametri variabili (accettano un numero variabile di parametri)
