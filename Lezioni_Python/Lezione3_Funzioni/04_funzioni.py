@@ -79,3 +79,26 @@ def controlla_moneta():
         print("E' uscito croce")
 
 controlla_moneta()
+
+def saluta_qualcuno(nome="Pippo", cognome="Rossi"):
+    return f"Ciao {nome} {cognome}"
+
+print(saluta_qualcuno("Anna", "Verdi"))
+
+def saluta_studente(nome, cognome):
+    return f"Nome: {nome} - Cognome: {cognome}"
+    
+print(saluta_studente("Luisa", "Bianchi"))
+print(saluta_studente("Bianchi", "Luisa"))
+print(saluta_studente(cognome="Bianchi", nome="Luisa"))
+
+# Parametri variabili
+def somma_tutto(*numeri):
+    totale = 0
+    for n in numeri:
+        totale += n
+    print(f"{totale}")
+
+# somma_tutto(4,5,6)
+somma_tutto( 1,50, 4, 9 ,100,1,)
+
